@@ -33,16 +33,26 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 - [ ] Lab:
 - [ ] Commit:
   
-## M001 | GETTING STARTED
+## M001 | REACT > GETTING STARTED
 
 - [ ] Folien: DeinThema.pdf > Intro
-- [ ] Demo:
+- [ ] Demo: [01-react-intro.html](TRAINER/01-react-intro.html)
 - [ ] Lab:
 - [ ] Commit:
 
-## MXXX | `name vom modul`
+## M002 | CREATE-REACT-APP
 
 - [ ] Folien:
-- [ ] Demo:
+- [ ] Demo: [react17-redux-ts-demos/src/index.tsx](TRAINER/react17-redux-ts-demos/src/index.tsx)
 - [ ] Lab:
 - [ ] Commit:
+
+## M003 | REACT APP PROJECT
+
+- demos
+  - [react17-redux-ts-demos](TRAINER/react17-redux-ts-demos)
+  - [Root.tsx](TRAINER/react17-redux-ts-demos/src/Root.tsx)
+
+## M004 | TSX
+
+- demo [Greeter.tsx](TRAINER/react17-redux-ts-demos/src/Greeter.tsx)
