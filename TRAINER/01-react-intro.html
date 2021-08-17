@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-react-intro</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+</head>
+<body>
+    <h1>01-react-intro</h1>
+    <pre>
+        EMMET: 
+        eine Erweiterung für HTML und CSS.
+        In HTML wird die Syntax von CSS-Selektoren genutzt.
+        In CSS die Angabe von den ersten Buchstaben von CSS-Props und Values produziert die Emmet-Vorschläge.
+        
+        REACT CDN:
+        React-Bibliothek kann über CDN angeschlossen werden.
+
+        REACT ELEMENT:
+        ist anders als HTML Element, hat deutlich weniger CSS-Props
+
+
+    </pre>
+    <h2>HTML Element</h2>
+    <div>
+        <p id="classicP">text im klassischen Paragraphen</p>
+    </div>
+
+    <h2>React Element</h2>
+
+    <div id="reactConnector"></div>
+
+    <script>
+        const reactP = React.createElement('p', {id: 'reactPId'}, 'text im react Paragraphen');
+        reactP.props.children = 'geänderter Text';
+
+        console.log('reactP: ', reactP);
+
+        ReactDOM.render(reactP, reactConnector);
+
+        // die klassischen Ps können auch dynamisch angelegt werden
+        const htmlP = document.createElement('p');
+
+        classicP.textContent = 'geänderter Text';
+
+    </script>
+</body>
+</html>
