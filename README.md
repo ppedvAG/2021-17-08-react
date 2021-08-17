@@ -57,5 +57,6 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 
 - demo [Greeter.tsx](TRAINER/react17-redux-ts-demos/src/Greeter.tsx)
 
-## M005 | TSX ELEMENT ATTRIBUTES
+## M005 | TSX ELEMENT ATTRIBUTES & ITERATION
 
+## M006 | REACT ELEMENT

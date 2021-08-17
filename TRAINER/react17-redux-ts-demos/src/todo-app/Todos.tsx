@@ -1,6 +1,12 @@
 /* 
 Geben Sie die Todos aus dem Array in Form von einer Tabelle aus:
 
+
+    */
+
+import Rating from "./Rating";
+
+export default function Todos() {
     let todos = [
         {
             userId: 1,
@@ -32,9 +38,22 @@ Geben Sie die Todos aus dem Array in Form von einer Tabelle aus:
             rating: 3
         }
     ]
-    */
 
-    export default function Todos() {
-        return <div>platzhalter</div>
+    const todosTable = <table>
+        <tbody>
+            {todos.map(todo => {
+                return <tr key={todo.id}>
+                    <td>{todo.userId}</td>
+                    <td>{todo.id}</td>
+                    <td>{todo.title}</td>
+                    <td>{todo.completed}</td>
+                    <td>
+                        <Rating starsNumber={todo.rating}/>
+                    </td>
+                </tr>
+            })}
+        </tbody>
+    </table>
+    return todosTable;
 
-    }
+}
