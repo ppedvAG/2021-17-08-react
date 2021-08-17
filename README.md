@@ -60,3 +60,9 @@ Nachdem du ein Repo für ein konkretes Datum anhand von diesem Template erstellt
 ## M005 | TSX ELEMENT ATTRIBUTES & ITERATION
 
 ## M006 | REACT ELEMENT
+
+## M007 | COMPONENTS
+
+## M008 | STATE
+
+

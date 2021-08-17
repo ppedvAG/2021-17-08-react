@@ -1,5 +1,7 @@
 import Zufallszahl, { Iterieren } from "./05-attributes";
 import ReactElements from "./06-react-element";
+import { KlassenKomponente, KlassischeSchreibweise, PfeilSchreibweise } from "./07-components";
+import { KomponenteMitState } from "./08-state";
 import Greeter from "./Greeter";
 import Todos from "./todo-app/Todos";
 
@@ -36,7 +38,20 @@ function Root() {
             <ReactElements propInProps="6">
                 <div>div für props</div>
             </ReactElements>
-            
+            <hr />
+
+            <h2>Komponenten</h2>
+            <pre>
+                Großschreibweise, sonst wird das Wort als Attribut-Prop interpretiert.
+            </pre>
+            <KlassischeSchreibweise propA={4}/>
+            <PfeilSchreibweise propB="g"/>
+            <KlassenKomponente propC={new Date()}/>
+            <hr />
+
+            <h2>State</h2>
+            <KomponenteMitState />
+
         </>
     )
 }
