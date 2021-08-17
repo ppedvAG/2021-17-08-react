@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bingo {
+  color: red !important; 
+  /* important weil Farbe noch beim Element direkt angegeben wird */
+  background-color: rgb(136, 128, 245);
+  font-size: 60px;
+  
+}
+
+.bordered {
+  border: thin solid;
+}
