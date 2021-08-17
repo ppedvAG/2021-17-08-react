@@ -31,4 +31,4 @@
 | `ctrl f` | find |
 | `ctrl z` | undo last action |
 
-Um eine Zeile zu selektieren, ziehen Sie Kursor nicht von Anfang der Zeile bis zum Ende, sondern vom Anfang der Zeile nach unten in die nächste Zeile.
+Um eine Zeile zu selektieren, ziehen Sie den Kursor nicht von Anfang der Zeile bis zum Ende, sondern vom Anfang der Zeile nach unten in die nächste Zeile.
