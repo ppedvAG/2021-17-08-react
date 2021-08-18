@@ -93,6 +93,10 @@ Ein Kurs von PPEDV :rocket:
 
 ## M014 | REDUX
 
+## M015 | FLUENT UI
+
+
+
 ## AGENDA AUF PPEDV.DE
 
 - [x] Das React Ecosystem kennenlernen
@@ -110,7 +114,7 @@ Ein Kurs von PPEDV :rocket:
 - [x] Kommunikation zwischen Komponenten
 - [x] One Way Data Flow
 - [x] Event-Modell und -Verarbeitung
-- [ ] Oberflächen mit Office UI Fabric erstellen
+- [x] Oberflächen mit Office UI Fabric erstellen
 - [x] React & Forms
 - [x] Formulare erstellen
   - [ ] und validieren
