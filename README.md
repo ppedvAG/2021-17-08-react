@@ -93,9 +93,25 @@ Ein Kurs von PPEDV :rocket:
 
 ## M014 | REDUX
 
+- Folien: REDUX.pdf
+- demos
+  - [14-redux-only.tsx](TRAINER/react17-redux-ts-demos/src/14-redux-only.tsx)
+  - [14-redux.tsx](TRAINER/react17-redux-ts-demos/src/14-redux.tsx)
+  - [Counter.tsx](TRAINER/react17-redux-ts-demos/src/features/counter/Counter.tsx)
+
 ## M015 | FLUENT UI
 
+- Folien: REACT.pdf > fluent ui
+- demo [15-fluent-ui.tsx](TRAINER/react17-redux-ts-demos/src/15-fluent-ui.tsx)
 
+## M016 | TESTING
+
+- Folien: REACT.pdf > testing
+- demos
+  - [todo-app/Rating.test.tsx](TRAINER/react17-redux-ts-demos/src/todo-app/Rating.test.tsx)
+  - [todo-app/__snapshots__/Rating.test.tsx.snap](TRAINER/react17-redux-ts-demos/src/todo-app/__snapshots__/Rating.test.tsx.snap)
+  - [16-shorten.test.ts](TRAINER/react17-redux-ts-demos/src/16-shorten.test.ts)
+  - [AppDefault/App.test.tsx](TRAINER/react17-redux-ts-demos/src/AppDefault/App.test.tsx)
 
 ## AGENDA AUF PPEDV.DE
 
@@ -116,15 +132,14 @@ Ein Kurs von PPEDV :rocket:
 - [x] Event-Modell und -Verarbeitung
 - [x] Oberflächen mit Office UI Fabric erstellen
 - [x] React & Forms
-- [x] Formulare erstellen
-  - [ ] und validieren
+- [x] Formulare erstellen und
+  - [ ] validieren
 - [x] React Hooks
 - [x] Daten von einem Backend abfragen
 - [x] React Router
 - [ ] Serverseitiges Rendering mit React
 - [ ] React Native für Android und iOS Apps
-- [ ] React & App State
-- [ ] Redux
-  - [ ] Actions, Store und Reducers
-  - [ ] Integration in React
-  - [ ] React Anwendungen testen
+- [ ] React & App State, Redux
+  - [x] Actions, Store und Reducers
+  - [x] Integration in React
+- [x] React Anwendungen testen
