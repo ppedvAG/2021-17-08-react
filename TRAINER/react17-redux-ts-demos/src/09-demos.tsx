@@ -1,7 +1,7 @@
 import Zufallszahl, { Iterieren } from "./05-attributes";
 import ReactElements, { FunctionComponent1, FunctionComponent2, FunctionComponent3, FunctionComponent4 } from "./06-react-element";
 import { KlassenKomponente, KlassischeSchreibweise, PfeilSchreibweise } from "./07-components";
-import { KomponenteMitState } from "./08-state";
+import { KomponenteMitState, KomponenteMitState2 } from "./08-state";
 import Greeter, { Greeter2 } from "./04-greeter";
 import InputComponent from "./10-forms";
 
@@ -114,7 +114,10 @@ export default function Demos() {
             <hr />
 
             <h2>State</h2>
-            <KomponenteMitState />
+            <pre>
+                siehe die erweiterte Version der Komponente im Kapitel Lifecycle
+            </pre>
+            {/* <KomponenteMitState /> */}
             <hr />
 
             <h2>Formulare</h2>
@@ -127,6 +130,14 @@ export default function Demos() {
 
             <h2>Formulare, Übung</h2>
             <Greeter2 />
+            <hr />
+
+            <h2>Lebenszyklus</h2>
+            <pre>
+                componentDidMount ist gute Stelle zum Fetchen von Daten
+            </pre>
+            <KomponenteMitState2 />
+            <hr />
             </>
     )
 }
