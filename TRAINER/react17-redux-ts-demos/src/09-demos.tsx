@@ -4,6 +4,7 @@ import { KlassenKomponente, KlassischeSchreibweise, PfeilSchreibweise } from "./
 import { KomponenteMitState, KomponenteMitState2 } from "./08-state";
 import Greeter, { Greeter2 } from "./04-greeter";
 import InputComponent from "./10-forms";
+import { KomponenteMitHooks } from "./12-hooks";
 
 export default function Demos() {
     // let component1 = FunctionComponent1;
@@ -137,6 +138,10 @@ export default function Demos() {
                 componentDidMount ist gute Stelle zum Fetchen von Daten
             </pre>
             <KomponenteMitState2 />
+            <hr />
+
+            <h2>Hooks</h2>
+            <KomponenteMitHooks />
             <hr />
             </>
     )

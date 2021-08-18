@@ -75,8 +75,11 @@ Ein Kurs von PPEDV :rocket:
 
 ## M011 | LIFECYCLE
 
+- Folien: REACT.pdf > Lifecycle
 
 ## M012 | HOOKS
+
+- Folien: REACT.pdf > hooks
 
 ## M013 | LIFTING STATE UP
 

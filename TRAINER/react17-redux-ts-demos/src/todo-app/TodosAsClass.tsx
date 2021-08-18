@@ -29,24 +29,6 @@ export default class TodosAsClass extends Component<{}, { todos: TodoInterface[]
             // .then(json => console.log(json))
             .then(json => this.setState({ todos: json }))
     }
-    /* renderTable = (table: any) => {
-        const todosTable = <table>
-            <tbody>
-                {this.state.todos.map(todo => {
-                    return <tr key={todo.id}>
-                        <td>{todo.userId}</td>
-                        <td>{todo.id}</td>
-                        <td>{todo.title}</td>
-                        <td>{todo.completed}</td>
-                        <td>
-                            <Rating starsNumber={todo.rating} />
-                        </td>
-                    </tr>
-                })}
-            </tbody>
-        </table>
-        return todosTable;
-    } */
 
     render() {
         const todosTable = <table>
