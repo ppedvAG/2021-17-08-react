@@ -30,6 +30,7 @@ export default class TodosAsClass extends Component<{}, { todos: TodoInterface[]
             .then(json => this.setState({ todos: json }))
     }
 
+
     render() {
         const todosTable = <table>
             <tbody>
@@ -53,6 +54,4 @@ export default class TodosAsClass extends Component<{}, { todos: TodoInterface[]
             </>
         )
     }
-
-
 }

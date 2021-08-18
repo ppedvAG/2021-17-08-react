@@ -72,16 +72,24 @@ Ein Kurs von PPEDV :rocket:
 - Folien:
   - REACT.pdf > events
   - REACT.pdf > forms
+- demo [10-forms.tsx](TRAINER/react17-redux-ts-demos/src/10-forms.tsx)
+- lab [04-greeter.tsx](TRAINER/react17-redux-ts-demos/src/04-greeter.tsx) Greeter2
 
 ## M011 | LIFECYCLE
 
 - Folien: REACT.pdf > Lifecycle
+- demo [08-state.tsx](TRAINER/react17-redux-ts-demos/src/08-state.tsx) KomponenteMitState2
+- lab [TodosAsClass.tsx](TRAINER/react17-redux-ts-demos/src/todo-app/TodosAsClass.tsx)
 
 ## M012 | HOOKS
 
 - Folien: REACT.pdf > hooks
+- demo [12-hooks.tsx](TRAINER/react17-redux-ts-demos/src/12-hooks.tsx)
 
 ## M013 | LIFTING STATE UP
+
+- Folien: REACT.pdf > composed components
+- demo [todo-app/TodosManyLevels.tsx](TRAINER/react17-redux-ts-demos/src/todo-app/TodosManyLevels.tsx)
 
 ## M014 | REDUX
 
@@ -97,21 +105,22 @@ Ein Kurs von PPEDV :rocket:
 - [x] React Components
 - [x] Function Components
 - [x] Class Components
-- [ ] Lifecycle
+- [x] Lifecycle
 - [x] Props & State
-- [ ] Kommunikation zwischen Komponenten
+- [x] Kommunikation zwischen Komponenten
 - [x] One Way Data Flow
-- [ ] Event-Modell und -Verarbeitung
+- [x] Event-Modell und -Verarbeitung
 - [ ] Oberflächen mit Office UI Fabric erstellen
-- [ ] React & Forms
-- [ ] Formulare erstellen und validieren
-- [ ] React Hooks
-- [ ] Daten von einem Backend abfragen
-- [ ] React Router
+- [x] React & Forms
+- [x] Formulare erstellen
+  - [ ] und validieren
+- [x] React Hooks
+- [x] Daten von einem Backend abfragen
+- [x] React Router
 - [ ] Serverseitiges Rendering mit React
 - [ ] React Native für Android und iOS Apps
 - [ ] React & App State
 - [ ] Redux
-- [ ] Actions, Store und Reducers
-- [ ] Integration in React
-- [ ] React Anwendungen testen
+  - [ ] Actions, Store und Reducers
+  - [ ] Integration in React
+  - [ ] React Anwendungen testen
