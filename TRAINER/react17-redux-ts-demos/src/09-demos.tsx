@@ -2,7 +2,8 @@ import Zufallszahl, { Iterieren } from "./05-attributes";
 import ReactElements, { FunctionComponent1, FunctionComponent2, FunctionComponent3, FunctionComponent4 } from "./06-react-element";
 import { KlassenKomponente, KlassischeSchreibweise, PfeilSchreibweise } from "./07-components";
 import { KomponenteMitState } from "./08-state";
-import Greeter from "./04-greeter";
+import Greeter, { Greeter2 } from "./04-greeter";
+import InputComponent from "./10-forms";
 
 export default function Demos() {
     // let component1 = FunctionComponent1;
@@ -114,6 +115,18 @@ export default function Demos() {
 
             <h2>State</h2>
             <KomponenteMitState />
+            <hr />
+
+            <h2>Formulare</h2>
+            <pre>
+                Beim Klick auf Enter z.B. bei einem Input in Form wird die Seite neu geladen. Bedingung: in Form ist nur 1 Input
+
+                Mit festdefiniertem value="" lässt sich input nicht editieren.
+            </pre>
+            <InputComponent />
+
+            <h2>Formulare, Übung</h2>
+            <Greeter2 />
             </>
     )
 }

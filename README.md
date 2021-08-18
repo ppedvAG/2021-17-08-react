@@ -45,7 +45,9 @@ Ein Kurs von PPEDV :rocket:
 - Folien: REACT.pdf > elements
 - demo [06-react-element.tsx](TRAINER/react17-redux-ts-demos/src/06-react-element.tsx)
 - lab [todo-app/Rating.tsx](TRAINER/react17-redux-ts-demos/src/todo-app/Rating.tsx)
-- commit [m006 demo + aufgabe](https://github.com/ppedvAG/2021-17-08-react/commit/1e6c56a081dc078d8b415df4698e3250a79ecfdc)
+- commits
+  - [m006 demo + aufgabe](https://github.com/ppedvAG/2021-17-08-react/commit/1e6c56a081dc078d8b415df4698e3250a79ecfdc)
+  - [m006 zusatz objekt props](https://github.com/ppedvAG/2021-17-08-react/commit/0905a0c8ef1d2834b76ade242f7726a2e710b0a5)
 
 ## M007 | COMPONENTS
 
@@ -59,6 +61,25 @@ Ein Kurs von PPEDV :rocket:
 - Folien: REACT.pdf > component state
 - demo [08-state.tsx](TRAINER/react17-redux-ts-demos/src/08-state.tsx)
 - commit [m008 demo](https://github.com/ppedvAG/2021-17-08-react/commit/8426911198bba412c86eb804b2a6267c24af7f0a)
+
+## M009 | ROUTING
+
+- Folien: REACT.pdf > routing
+- demo [03-root.tsx](TRAINER/react17-redux-ts-demos/src/03-root.tsx) im Zustand vom commit [m009 routing](https://github.com/ppedvAG/2021-17-08-react/commit/a4a6e25e0b0af71b1673a4681e82f5be4ecdada2)
+
+## M010 | EVENTS & FORMS
+
+- Folien:
+  - REACT.pdf > events
+  - REACT.pdf > forms
+
+## M011 | LIFECYCLE
+
+## M012 | HOOKS
+
+## M013 | LIFTING STATE UP
+
+## M014 | REDUX
 
 ## AGENDA AUF PPEDV.DE
 
