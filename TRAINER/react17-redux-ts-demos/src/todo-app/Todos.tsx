@@ -54,6 +54,12 @@ export default function Todos() {
             })}
         </tbody>
     </table>
-    return todosTable;
+    return (
+        <>
+        <h2>Übung: Todos aus einem Array</h2>
+        {todosTable}
+        </>
+    )
+    ;
 
 }

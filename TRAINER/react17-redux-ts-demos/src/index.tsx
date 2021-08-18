@@ -5,6 +5,7 @@ import './index.css';
 // import { store } from './app/store';
 // import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
 import Root from './03-root';
 
 /* ReactDOM.render(
@@ -17,7 +18,9 @@ import Root from './03-root';
 ); */
 
 ReactDOM.render(
-      <Root />,
+  <BrowserRouter>
+    <Root />
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
