@@ -47,7 +47,9 @@ function Root() {
             <ReactElements propInProps="6">
                 <div>div für props</div>
             </ReactElements>
-            {/* <FunctionComponent1 testAttr="testValue"></FunctionComponent1> */}
+
+           
+            {/*  <FunctionComponent1 testAttr="testValue" /> */}
             {/* Fehler: Type '{ testAttr: string; }' is not assignable to type 'IntrinsicAttributes'.
             Property 'testAttr' does not exist on type 'IntrinsicAttributes'.ts(2322) */}
 
@@ -89,7 +91,7 @@ function Root() {
             */}
             {/* 
             Analyse:
-            children sind als vom Typ 'Element'. 
+            children sind vom Typ 'Element'. 
             */}
             {/* <FunctionComponent3 attr1="attr1Wert" attr2="attr2Wert">
                 <FunctionComponent2 attr="test" />
@@ -112,8 +114,6 @@ function Root() {
             <FunctionComponent4 attr1="attr1Wert">
                 <input type="text" />
             </FunctionComponent4>
-
-
             <hr />
 
             <h2>Komponenten</h2>

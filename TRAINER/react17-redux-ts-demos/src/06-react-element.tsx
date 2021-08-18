@@ -33,18 +33,22 @@ Object {
  */
 
 // Wenn Datentyp von Props nicht bekannt, dann 'any'
-// export default ReactElements: React.FC<{ children: Element; propInProps: number; }, any> = function() {
+
+interface PropsObject {
+    propInProps: string
+    children: JSX.Element
+}
 // todo #1
-export default function ReactElements(props: any) {
+export default function ReactElements(props: PropsObject) {
     // JSX kann man nur bei Angaben von Datentypen verwenden
     // console.log('JSX :>> ', JSX); // Cannot use namespace 'JSX' as a value.ts(2708)
     const einJSXElement: JSX.Element = <div>text in div</div>;
     //console.log('einJSXElement :>> ', einJSXElement);
     console.log('props :>> ', props);
 
-    return <>{
-        einJSXElement
-    }</>
+    return <>{einJSXElement}
+        <div>props.children: {props.children}</div>
+    </>
 }
 
 // Eine Komponente, die keine Attribute erwartet
