@@ -17,9 +17,9 @@ Ein Kurs von PPEDV :rocket:
 
 ## M002 | CREATE-REACT-APP
 
-- [ ] Folien: REACT.pdf > create-react-app
-- [ ] demo [react17-redux-ts-demos/src/index.tsx](TRAINER/react17-redux-ts-demos/src/index.tsx)
-- [ ] commit [cra template](https://github.com/ppedvAG/2021-17-08-react/commit/851577ea59afb70512fe95481eea5570de19360b)
+- Folien: REACT.pdf > create-react-app
+- demo [react17-redux-ts-demos/src/index.tsx](TRAINER/react17-redux-ts-demos/src/index.tsx)
+- commit [cra template](https://github.com/ppedvAG/2021-17-08-react/commit/851577ea59afb70512fe95481eea5570de19360b)
 
 ## M003 | REACT APP PROJECT
 
@@ -98,7 +98,9 @@ Ein Kurs von PPEDV :rocket:
 
 ## M014 | REDUX
 
-- Folien: REDUX.pdf
+- Folien:
+  - REACT.pdf > app state
+  - REDUX.pdf
 - demos
   - [14-redux-only.tsx](TRAINER/react17-redux-ts-demos/src/14-redux-only.tsx)
   - [14-redux.tsx](TRAINER/react17-redux-ts-demos/src/14-redux.tsx)
